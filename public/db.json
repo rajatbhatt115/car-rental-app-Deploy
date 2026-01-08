@@ -234,37 +234,37 @@
     }
   ],
   "blogs": [
-    {
-      "id": 1,
-      "title": "Essential Tips to Make Your Car Rental Experience Smooth & Hassle-Free",
-      "date": "29 Feb, 2024",
-      "author": "Admin",
-      "commentsCount": 3,
-      "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800",
-      "excerpt": "We've added 10 new luxury vehicles to our fleet to serve you better.",
-      "content": "<p>Renting a car gives you complete freedom to explore your destination at your own pace. However, many travellers end up paying extra due to small mistakes or missing information. This guide shares practical tips that will help you enjoy a comfortable, safe, and budget-friendly rental experience.</p><p>Always compare rental companies before booking. Look for offers that include insurance coverage, unlimited mileage, and 24/7 customer assistance. Paying attention to these details protects you from unnecessary charges later.</p>"
-    },
-    {
-      "id": 2,
-      "title": "Safety First Initiative",
-      "date": "20 Jan 2025",
-      "author": "Admin",
-      "commentsCount": 5,
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=250&fit=crop",
-      "excerpt": "All our vehicles now equipped with latest safety features and sanitized regularly.",
-      "content": "<p>All our vehicles now equipped with latest safety features and sanitized regularly. We prioritize your safety above everything else.</p>"
-    },
-    {
-      "id": 3,
-      "title": "Special Winter Offers",
-      "date": "15 Jan 2025",
-      "author": "Admin",
-      "commentsCount": 2,
-      "image": "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=400&h=250&fit=crop",
-      "excerpt": "Book now and get up to 20% off on all weekly and monthly rentals.",
-      "content": "<p>Book now and get up to 20% off on all weekly and monthly rentals. Limited time offer!</p>"
-    }
-  ],
+  {
+    "id": 1,
+    "title": "Essential Tips to Make Your Car Rental Experience Smooth & Hassle-Free",
+    "date": "29 Feb, 2024",
+    "author": "Admin",
+    "commentsCount": 3,
+    "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800",
+    "excerpt": "We've added 10 new luxury vehicles to our fleet to serve you better.",
+    "content": "<p>Renting a car gives you complete freedom to explore your destination at your own pace. However, many travellers end up paying extra due to small mistakes or missing information. This guide shares practical tips that will help you enjoy a comfortable, safe, and budget-friendly rental experience.</p><p>Always compare rental companies before booking. Look for offers that include insurance coverage, unlimited mileage, and 24/7 customer assistance. Paying attention to these details protects you from unnecessary charges later.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Safety First Initiative",
+    "date": "20 Jan 2025",
+    "author": "Admin",
+    "commentsCount": 5,
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=250&fit=crop",
+    "excerpt": "All our vehicles now equipped with latest safety features and sanitized regularly.",
+    "content": "<p>At Car Rentals, we prioritize your safety above all else. All our vehicles are now equipped with the latest safety features including airbags, ABS, and real-time GPS tracking. We have implemented a rigorous sanitization process where every vehicle is thoroughly cleaned and disinfected after each use.</p><p>Our drivers are trained in safety protocols and emergency procedures to ensure your journey is secure and comfortable.</p>"
+  },
+  {
+    "id": 3,
+    "title": "Special Winter Offers",
+    "date": "15 Jan 2025",
+    "author": "Admin",
+    "commentsCount": 2,
+    "image": "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=400&h=250&fit=crop",
+    "excerpt": "Book now and get up to 20% off on all weekly and monthly rentals.",
+    "content": "<p>Book now and get up to 20% off on all weekly and monthly car rentals for a limited time.</p><p>This exclusive offer helps you save more on long-term bookings, whether for business travel, vacations, or everyday commuting. Choose from a wide range of clean, well-maintained vehicles equipped with modern features to ensure safety and comfort on every journey. With transparent pricing, reliable service, and dedicated customer support, we make your rental experience smooth and stress-free.</p><p>Hurry—this limited-time discount won't last long!</p>"
+  }
+],
   "team": [
     {
       "id": 1,

@@ -419,7 +419,7 @@ const HomePage = () => {
           <h2 className="text-center mb-5">News & <span className="highlight">Updates</span></h2>
           <Row>
             {blogs.map((blog, index) => (
-              <Col md={4} key={blog.id || index} className="mb-4">
+              <Col md={4} key={blog.id || index}>
                 <div className="news-card">
                   <img src={blog.image} alt="News" className="news-image" />
                   <div className="news-content">

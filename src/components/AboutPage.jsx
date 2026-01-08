@@ -76,7 +76,7 @@ const AboutPage = () => {
             <Col md={6}>
               <div className="service-point">
                 <FaChevronRight className="me-2" style={{color: '#ff6b35'}} />
-                <span>Tirth Travels is Luxurious A/c & non A/c car provider</span>
+                <span>Car rentals is Luxurious A/c & non A/c car provider</span>
               </div>
             </Col>
           </Row>
@@ -84,21 +84,21 @@ const AboutPage = () => {
           <Row className="align-items-center">
             <Col lg={6}>
               <div className="service-content">
-                <p>Tirth travels is a car rental company in premium and high-end car sector. We hence maintain
+                <p>Car rentals is a car rental company in premium and high-end car sector. We hence maintain
                   most of the latest cars that provide the impeccable in luxury, comfort and are most
                   dependable.</p>
 
-                <p>A brainchild Mr. Nirmal V. Shah, (Proprietor) of Tirth travels was launched in the year 2007
+                <p>A brainchild Mr. Nirmal V. Shah, (Proprietor) of Car rentals was launched in the year 2007
                   with a short-term vision of becoming a medium of travel for customers and a long-term vision
                   of giving form and structure to the unorganized Indian personal ground transportation
                   industry and helping the same evolve into an organized grounded industry.</p>
 
-                <p>Tirth travels was set out about a decade ago with only a few cars. Tirth travels is now One
+                <p>Car rentals was set out about a decade ago with only a few cars. Car rentals is now One
                   of the major car provider company in Surat-Ankleshwar belt. Now more than 80 vehicle running
                   on roads to satisfy our clients.</p>
 
                 <p>It is to Nirmal shah's credit that Personal Ground Transportation is the "Core" business of
-                  Tirth travels. It is perhaps the first and the only player to offer complete 360 degree
+                  Car rentals. It is perhaps the first and the only player to offer complete 360 degree
                   solutions to completely meet the challenges that personal ground transportation industry
                   into an organized business.</p>
 

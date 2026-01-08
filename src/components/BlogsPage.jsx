@@ -17,7 +17,7 @@ const BlogsPage = () => {
       date: "25 Jan 2025",
       image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400&h=250&fit=crop",
       excerpt: "We've added 10 new luxury vehicles to our fleet to serve you better.",
-      comments: 3
+      // comments: 3
     },
     {
       id: 2,
@@ -25,7 +25,15 @@ const BlogsPage = () => {
       date: "20 Jan 2025",
       image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=400&h=250&fit=crop",
       excerpt: "All our vehicles now equipped with latest safety features and sanitized regularly.",
-      comments: 5
+      // comments: 5
+    },
+    {
+      id: 3,
+      title: "Special Winter Offers",
+      date: "15 Jan 2025",
+      image: "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?w=400&h=250&fit=crop",
+      excerpt: "Book now and get up to 20% off on all weekly and monthly rentals.",
+      // comments: 5
     }
   ];
 
@@ -111,7 +119,7 @@ const BlogsPage = () => {
                           <FaCalendar className="me-1" /> {blog.date}
                         </Badge>
                         <small className="text-muted">
-                          <FaComments className="me-1" /> {blog.comments || 0} Comments
+                          {/* <FaComments className="me-1" /> {blog.comments || 0} Comments */}
                         </small>
                       </div>
                       <Card.Title>{blog.title}</Card.Title>
