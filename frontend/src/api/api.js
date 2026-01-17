@@ -1,15 +1,19 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+// Decide base URL based on environment
+const API_BASE_URL =
+  window.location.hostname === 'localhost'
+    ? process.env.REACT_APP_API_LOCAL
+    : process.env.REACT_APP_API_LIVE;
 
 const api = {
- // Home Page Cars (3 cars only)
+  // Home Page Cars (3 cars only)
   getCars: () => axios.get(`${API_BASE_URL}/cars`),
   getCarById: (id) => axios.get(`${API_BASE_URL}/cars/${id}`),
-  
+
   // Cars Page Cars (9 cars for filtering)
   getFilterCars: () => axios.get(`${API_BASE_URL}/filterCars`),
-  
+
   searchCars: (filters) => {
     const params = new URLSearchParams();
     Object.keys(filters).forEach(key => {
@@ -28,28 +32,29 @@ const api = {
   // Team
   getTeam: () => axios.get(`${API_BASE_URL}/team`),
 
-   // Home Services (Simple icons wali)
+  // Home Services
   getHomeServices: () => axios.get(`${API_BASE_URL}/homeServices`),
 
-   // Company History
+  // Company History
   getCompanyHistory: () => axios.get(`${API_BASE_URL}/companyHistory`),
 
-  // Services Page Services (Numbered wali)
+  // Services Page Services
   getServices: () => axios.get(`${API_BASE_URL}/services`),
   getServiceById: (id) => axios.get(`${API_BASE_URL}/services/${id}`),
 
-    // Rates for Services Page
+  // Rates
   getRates: () => axios.get(`${API_BASE_URL}/rates`),
   getFeatures: () => axios.get(`${API_BASE_URL}/features`),
 
   // Stats
-  getStats: () => Promise.resolve({
-    data: {
-      yearsExperience: 20,
-      happyClients: 1000,
-      totalCars: 50
-    }
-  })
+  getStats: () =>
+    Promise.resolve({
+      data: {
+        yearsExperience: 20,
+        happyClients: 1000,
+        totalCars: 50
+      }
+    })
 };
 
 export default api;
